@@ -604,7 +604,7 @@ function initializeSingleLeagueWidget(widgetContainer) {
             dateDiv.className = 'match-date-widget';
 
             const formattedTime = window.matchSchedulerData.getFormattedTime(match.dateTime);
-            const formattedDate = window.matchSchedulerData.getFormattedDate(match.dateTime, 'ar-EG', {weekday: 'short', day: 'numeric'}); // Default locale
+            const formattedDate = window.matchSchedulerData.getFormattedDate(match.dateTime, 'ar-MA', {weekday: 'short', day: 'numeric'}); // Default locale
             let mainDisplayContent = '';
             const matchStatus = match.status ? match.status.toLowerCase().trim() : "لم تبدأ";
             let statusTextToDisplay = match.status || 'لم تبدأ';
