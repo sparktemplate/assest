@@ -1,4 +1,4 @@
-// ==== Main Match Schedule UI Logic ====
+// ==== Main Match Schedule UI Logic By Sparktemplate ====
 function initializeMainScheduleInterface() {
   const mainContainer = document.getElementById('match-schedule-container-new');
   if (!mainContainer) return false;
